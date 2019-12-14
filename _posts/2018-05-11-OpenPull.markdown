@@ -1,0 +1,74 @@
+---
+layout: post
+title:  "OpenPull"
+date:   2018-05-11 17:40:06
+categories: open-source
+tags:
+- open_source
+- hardware
+image: /openpull/openpull-cover.jpg
+description: OpenPull is an open-source micropipette puller. Click to read more.
+---
+
+![Openpull](/assets/images/openpull/openpull-crop.jpg "Micropipette puller."){: .center-image}
+
+<i> Disclaimer: This project is still under development. I have not tested this using a current micropipette. This project uses flamable gas. I am not liable for injury resulted from recreating this project. I am still finalizing design, and am planning to release this project under the Open Source Hardware Association’s guidelines once v1.0 is completed. </i>
+
+<br>
+
+With the advent or Arduino, Raspberry Pi, and commoditization of “jellybean” components, hardware is dropping in price. I want to bring the same access and affordability to bioengineering laboratories. As my first open source project, I designed a micropipette puller.
+
+In order to probe cells and deposit accurate quantities of fluid, biological laboratories use a special machine to accurately make these pipettes. Current machines on the market are thousands of dollars, have a rudimentary user interface (UI).
+<br>
+
+**Technical** 
+
+---
+
+<br>
+
+An accurate, precise micropipette requires an accurate, precise machine. The main challenge was to find a way to inexpensively provide precise movement. I chose Makerslide because it allowed for zero play adjustment, and easily interfaces with standard-sized aluminum extrusion. To reduce slop as much as possible, I used a four-start lead screw combined with a delrin nut.
+
+In order to provide heating, current micropipette pullers use a high-powered electrical heating element. Using a similar heating element was cost-prohibitive. Instead, I chose to control a bunsent burner using a solenoid valve rated for gas. In order to light the bunsen burner, I ripped out an ignitor/sparker module from a stove/grill lighter. The ignitor runs on a AAA battery, which can easily by replaced by the Arduino’s power pins.
+
+For a frame, aluminum extrusion pieces were faced on a mill, and assembled with 90 degree brackets.
+
+I used an Arduino Uno controller board, combined with stepper motor circuity as shown below. Based on my research, I used the DRV8825 chip since it had a strong following in the open-source community. Switching for the solenoid valve and the stepper motor were accomplished using MOSFETs.
+
+The Arduino IDE does not provide many tools for C++ development. Instead, I used the Atom text editor, with PlatformIO integration.
+
+<br>
+
+**Result**
+
+---
+
+<br>
+
+See picture above.
+
+<br>
+
+**Review**
+
+---
+
+<br>
+
+What went well:
+
+- Project stayed on budget, despite issues with parts compatibility.
+- Machining of aluminum parts created a very ridgid frame.
+- Parts ordered from Aliexpress were of acceptable quality.
+
+Not so hot:
+
+- Tempermental circuit design for controlling solenoid valve.
+- Project incomplete.
+
+Things that still need to be done:
+
+- Micropipette testing, characterization.
+- Finalize software
+- Finalize electrical circuit design.
+- Designing or finding an inexpensive way to hold the glass pipettes without breaking them. 

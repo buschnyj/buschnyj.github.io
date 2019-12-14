@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/favicon.png">
+
+    <title>Soft Robotics</title>
+    <meta name="description"
+          content="">
+
+    <!-- Material Design Lite CDN -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-pink.min.css">
+<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://buschnyj.github.io/hardware/2017/05/08/Soft-Robotics.html">
+    <link rel="alternate" type="application/rss+xml" title="Buschnyj" href="http://buschnyj.github.io/feed.xml" />
+</head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header"> <!-- "mdl" == material design light -->
+      <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+        <a class="site-title" href="/">
+            <span class="mdl-layout-title">Buschnyj</span>
+        </a>
+    </div>
+</header>
+      <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Justin Buschnyj</span>
+    <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="/">Home</a>
+        
+        
+        <a class="mdl-navigation__link" href="/about/">About</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a class="mdl-navigation__link" href="/work/">Past Work</a>
+        
+        
+    </nav>
+</div>
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <div class="wrapper">
+            <div class="post mdl-shadow--2dp">
+  <header class="post-header">
+    <h1 class="post-title">Soft Robotics</h1>
+    <p class="post-meta">May 8, 2017</p>
+  </header>
+  <article class="post-content">
+    <p><img src="/assets/images/claw-v2-trimmed.jpg" alt="Claw v2 trimmed" title="It looks like icing" class="center-image" /></p>
+
+<p><br /></p>
+
+<p>Soft robotics have the potential to provide inexpensive, versatile, safe use in conjunction with humans. Materials to manufacture these robots, however, can be cost-prohibitive, especially with low-volume production. While researching materials, I came across an <a href="https://www.instructables.com/id/How-To-Make-Your-Own-Sugru-Substitute/">Instructables post</a> on how to create a sugru substitute. Using corn starch and silicone caulk, the person created a sticky, yet flexible material for gluing and mounting items. I wanted to see if this forumla has sufficient properties to replace two-part silicone moulding compound in robotics applications.</p>
+
+<p><br /></p>
+
+<p><strong>Technical</strong></p>
+
+<hr />
+
+<p><br /></p>
+
+<p>I quickly wanted to get testing, so I used this <a href="https://www.instructables.com/id/Air-Powered-Soft-Robotic-Gripper/">four arm gripper</a> based on research from Harvard.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>. The mould is filled with material and left to dry, while additional material is spread onto a flat surface, creating an elastic pancake. Once dried, the mould and the pancake are sealed together using additional compound. A tube is inserted into the central chamber. When pressure is applied, the orientation of the various air chambers cause the claw to close.</p>
+
+<p>The mould was printed with black PLA using the following settings:</p>
+
+<ul>
+  <li>Infill: 12%</li>
+  <li>outer perimeters: 3</li>
+  <li>extruder temperature: 245 degrees celsius</li>
+  <li>bed temperature: 60 degrees celsius</li>
+</ul>
+
+<!-- _includes/image.html -->
+<!-- add caption to images -->
+<div class="image-wrapper">
+    
+        <img src="http://buschnyj.github.io//assets/images/mould-v1-printing.jpg" alt="printing" />
+    
+    
+        <p class="image-caption">The first mould was printed at too high of a temperature</p>
+    
+</div>
+
+<p><br /></p>
+
+<p>When the mould finished printing, wispy strands of PLA were left over from filament oozed out of the nozzle during non-printing movement. With a knife, I removed as much of the stringing as possible.</p>
+
+<p>Per the directions, I combined approximately 12 pumps of silicone caulk, with a heaping tablespoon of cornstarch. Two things became apparent:</p>
+
+<ol>
+  <li>Silicone caulk smells like awfully strong vinegar.</li>
+  <li>Adding the cornstarch turned the silicone into a paste that’s has to be spooned into the mould. I didn’t have a syringe large enough to extrude the paste, meaning that it’s more likely air gaps would appear in the casting.</li>
+</ol>
+
+<p><br /></p>
+
+<!-- _includes/image.html -->
+<!-- add caption to images -->
+<div class="image-wrapper">
+    
+        <img src="http://buschnyj.github.io//assets/images/claw-v1-underside.jpg" alt="the first casting" />
+    
+    
+        <p class="image-caption">The first casting. Note the bits of PLA (black spots), and how the paste wasn't fully compacted into the mould.</p>
+    
+</div>
+
+<p><br />
+<!-- _includes/image.html -->
+<!-- add caption to images --></p>
+<div class="image-wrapper">
+    
+        <img src="http://buschnyj.github.io//assets/images/claw-v2-underside.jpg" alt="the second casting" />
+    
+    
+        <p class="image-caption">The second casting turned out much better.</p>
+    
+</div>
+
+<p><br /></p>
+
+<p>As shown above, the silicone wasn’t pressed down hard enough. Another mould was printed, this time with machine changes listed below:</p>
+
+<ol>
+  <li>Temperature was lowered.</li>
+  <li>Retraction enabled at 0.2 mm.</li>
+  <li>Nozzle wiping enabled to 0.6 mm.</li>
+  <li>Cooling fan raised to 100% speed.</li>
+</ol>
+
+<p>The second casting proved suitable for use. 
+<br /></p>
+
+<p><strong>Result</strong></p>
+
+<hr />
+
+<p><br /></p>
+
+<!-- _includes/image.html -->
+<!-- add caption to images -->
+<div class="image-wrapper">
+    
+        <img src="http://buschnyj.github.io//assets/images/claw-v2-all.jpg" alt="the second version of the claw" />
+    
+    
+        <p class="image-caption">The second casting of the claw.</p>
+    
+</div>
+
+<p><br /></p>
+
+<p>When I applied pressure through the syringe, the entire claw swelled, then a weak spot in the silicone gave way, breaking the seal.</p>
+
+<p><br /></p>
+
+<!-- _includes/image.html -->
+<!-- add caption to images -->
+<div class="image-wrapper">
+    
+        <img src="http://buschnyj.github.io//assets/images/claw-v2-blowout.jpg" alt="claw blowout" />
+    
+    
+        <p class="image-caption">A thin portion of the claw's underside blew out when pressure was applied.</p>
+    
+</div>
+
+<p><br /></p>
+
+<p><strong>Review</strong></p>
+
+<hr />
+
+<p><br /></p>
+
+<p>What went well:</p>
+<ul>
+  <li>Silicone mixture casted fairly well.</li>
+  <li>Resulting gripper was somewhat flexible.</li>
+</ul>
+
+<p>Not so hot:</p>
+<ul>
+  <li>I did not have a degasser to completely remove air bubbles when casting the gripper.</li>
+  <li>The silicone mixture didn’t flow easily; I had to pack down the mixture into the mould.</li>
+</ul>
+
+<p><br /></p>
+
+<hr />
+
+<p><br /></p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>licensed under the Creative Commons - Attribution - Non-Commercial license. The mould STL file can be found <a href="http://www.thingiverse.com/thing:66883">here</a>. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+</div>
+
+          </div>
+        </div>
+        <footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer__left-section">
+        <p>
+            Portfolio and occational blog.
+        </p>
+        <ul class="mdl-mini-footer__link-list">
+            <li>
+                <a href="/">Home</a>
+            </li>
+            
+            
+            <li>
+                <a href="/about/">About</a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li>
+                <a href="/work/">Past Work</a>
+            </li>
+            
+            
+        </ul>
+        <div class="copyright">
+            &copy; 2017 Justin Buschnyj | Design:&nbsp;<a href="https://github.com/ssokurenko/jekyll-smart-material">Jekyll&nbsp;Smart&nbsp;Material</a>
+        </div>
+    </div>
+</footer>
+      </main>
+    </div>
+     <!-- google analytics implementation. the "if jekyll.env..." line prevents skewing of data when doing a localhost -->
+  </body>
+</html>

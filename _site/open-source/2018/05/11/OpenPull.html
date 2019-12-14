@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/favicon.png">
+
+    <title>OpenPull</title>
+    <meta name="description"
+          content="">
+
+    <!-- Material Design Lite CDN -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-pink.min.css">
+<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://buschnyj.github.io/open-source/2018/05/11/OpenPull.html">
+    <link rel="alternate" type="application/rss+xml" title="Buschnyj" href="http://buschnyj.github.io/feed.xml" />
+</head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header"> <!-- "mdl" == material design light -->
+      <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+        <a class="site-title" href="/">
+            <span class="mdl-layout-title">Buschnyj</span>
+        </a>
+    </div>
+</header>
+      <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Justin Buschnyj</span>
+    <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="/">Home</a>
+        
+        
+        <a class="mdl-navigation__link" href="/about/">About</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a class="mdl-navigation__link" href="/work/">Past Work</a>
+        
+        
+    </nav>
+</div>
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <div class="wrapper">
+            <div class="post mdl-shadow--2dp">
+  <header class="post-header">
+    <h1 class="post-title">OpenPull</h1>
+    <p class="post-meta">May 11, 2018</p>
+  </header>
+  <article class="post-content">
+    <p><img src="/assets/images/openpull/openpull-crop.jpg" alt="Openpull" title="Micropipette puller." class="center-image" /></p>
+
+<p><i> Disclaimer: This project is still under development. I have not tested this using a current micropipette. This project uses flamable gas. I am not liable for injury resulted from recreating this project. I am still finalizing design, and am planning to release this project under the Open Source Hardware Association’s guidelines once v1.0 is completed. </i></p>
+
+<p><br /></p>
+
+<p>With the advent or Arduino, Raspberry Pi, and commoditization of “jellybean” components, hardware is dropping in price. I want to bring the same access and affordability to bioengineering laboratories. As my first open source project, I designed a micropipette puller.</p>
+
+<p>In order to probe cells and deposit accurate quantities of fluid, biological laboratories use a special machine to accurately make these pipettes. Current machines on the market are thousands of dollars, have a rudimentary user interface (UI).
+<br /></p>
+
+<p><strong>Technical</strong></p>
+
+<hr />
+
+<p><br /></p>
+
+<p>An accurate, precise micropipette requires an accurate, precise machine. The main challenge was to find a way to inexpensively provide precise movement. I chose Makerslide because it allowed for zero play adjustment, and easily interfaces with standard-sized aluminum extrusion. To reduce slop as much as possible, I used a four-start lead screw combined with a delrin nut.</p>
+
+<p>In order to provide heating, current micropipette pullers use a high-powered electrical heating element. Using a similar heating element was cost-prohibitive. Instead, I chose to control a bunsent burner using a solenoid valve rated for gas. In order to light the bunsen burner, I ripped out an ignitor/sparker module from a stove/grill lighter. The ignitor runs on a AAA battery, which can easily by replaced by the Arduino’s power pins.</p>
+
+<p>For a frame, aluminum extrusion pieces were faced on a mill, and assembled with 90 degree brackets.</p>
+
+<p>I used an Arduino Uno controller board, combined with stepper motor circuity as shown below. Based on my research, I used the DRV8825 chip since it had a strong following in the open-source community. Switching for the solenoid valve and the stepper motor were accomplished using MOSFETs.</p>
+
+<p>The Arduino IDE does not provide many tools for C++ development. Instead, I used the Atom text editor, with PlatformIO integration.</p>
+
+<p><br /></p>
+
+<p><strong>Result</strong></p>
+
+<hr />
+
+<p><br /></p>
+
+<p>See picture above.</p>
+
+<p><br /></p>
+
+<p><strong>Review</strong></p>
+
+<hr />
+
+<p><br /></p>
+
+<p>What went well:</p>
+
+<ul>
+  <li>Project stayed on budget, despite issues with parts compatibility.</li>
+  <li>Machining of aluminum parts created a very ridgid frame.</li>
+  <li>Parts ordered from Aliexpress were of acceptable quality.</li>
+</ul>
+
+<p>Not so hot:</p>
+
+<ul>
+  <li>Tempermental circuit design for controlling solenoid valve.</li>
+  <li>Project incomplete.</li>
+</ul>
+
+<p>Things that still need to be done:</p>
+
+<ul>
+  <li>Micropipette testing, characterization.</li>
+  <li>Finalize software</li>
+  <li>Finalize electrical circuit design.</li>
+  <li>Designing or finding an inexpensive way to hold the glass pipettes without breaking them.</li>
+</ul>
+
+  </article>
+</div>
+
+          </div>
+        </div>
+        <footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer__left-section">
+        <p>
+            Portfolio and occational blog.
+        </p>
+        <ul class="mdl-mini-footer__link-list">
+            <li>
+                <a href="/">Home</a>
+            </li>
+            
+            
+            <li>
+                <a href="/about/">About</a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li>
+                <a href="/work/">Past Work</a>
+            </li>
+            
+            
+        </ul>
+        <div class="copyright">
+            &copy; 2017 Justin Buschnyj | Design:&nbsp;<a href="https://github.com/ssokurenko/jekyll-smart-material">Jekyll&nbsp;Smart&nbsp;Material</a>
+        </div>
+    </div>
+</footer>
+      </main>
+    </div>
+     <!-- google analytics implementation. the "if jekyll.env..." line prevents skewing of data when doing a localhost -->
+  </body>
+</html>

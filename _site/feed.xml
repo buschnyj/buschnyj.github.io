@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Buschnyj</title>
+    <description>Portfolio and occational blog.</description>
+    <link>http://buschnyj.github.io/</link>
+    <atom:link href="http://buschnyj.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 14 Dec 2019 00:06:35 -0600</pubDate>
+    <lastBuildDate>Sat, 14 Dec 2019 00:06:35 -0600</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Woven Neural Probes</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/wnp/mesh-v0-in-jig.jpg&quot; alt=&quot;Woven mesh using muscle wire (SMA).&quot; title=&quot;Mesh before coated in PEG.&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Recently, scientists are reaching the limit of data that can be collected about the brain. If we want to do things like computational analysis, and neural net models, we are going to need much more data from individual neurons. At the BioSensing and BioRobotics lab, I helped develop affordable, flexible, neural probes for neurological research.&lt;/p&gt;
+
+&lt;p&gt;Chronic implamentation further adds additional engineering issues. Implants physically shift, causing additional damage to tissue, and loosing signal quality with the original neuron it landed on. Scientists can only keep track of, and reposition so many neurons before severe tissue damage, or losing track of each neuron happens.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;All versions of the tetrode wiring use SANDVIK tetrode wire (link here) with 0.0001” diameter. The wire consists of a highly conductive metal, with a thin coating of polyimide inssulanting the length of the wire. For SMA, we used wires from Flexinol (link here) ranging from 0.005”-0.001” diameter. Due to limited availability, all experiments used SMA wire that actuated at 70 degrees celcius. In reality, custom SMA wire with an actuation temperature closer to body temp will be used.&lt;/p&gt;
+
+&lt;p&gt;Tetrode wire, which is a thin, highly conductive wire coated with a polyimide coating (purchase here) was used to pick up signals. Shape-memory alloy (SMA), also known as ‘muscle wire’, was purchased from Flexinol (here) in various lengths. Due to limited material availability, we used SMA wire that actuated at 70 degrees celcius. Various combinations of combining SMA and tetrode implant wired were tried.&lt;/p&gt;
+
+&lt;p&gt;Due to the poor/insufficient binding, we swithed to one using a woven loom. A piece of 1/8” - thick acrylic was cut on a laser cutter in the pattern shown below. (below post a pictoral representation of the mesh, labeling holes for weaving and other important items). In previous experiments, my coworkers designed, etched, and got manufactured a circuit board to connect with computer. (show picture of circuit board and labbeles holes and where they go to).&lt;/p&gt;
+
+&lt;p&gt;SMA wire was first woven into the desired pattern. Then, tetrode wire is woven throught the electrical connectors at the top of the circuit board, ending at the rest of the mesh. Once weaving was done, and all wires were taught, adhesive was carefully applied where SMA and tetrode wire crossed. To remove the mesh from the weaving jig, scissors were used to cut the SMA, then the tetrode.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;After ten trials, and one major design shift, we were able to successfully have a neural mesh expand in agar once heat was applied.&lt;/p&gt;
+
+&lt;!-- _includes/image.html --&gt;
+&lt;!-- add caption to images --&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+        &lt;img src=&quot;http://buschnyj.github.io//assets/images/wnp/wnp-exp-chart.png&quot; alt=&quot;Basic summary of tests we did.&quot; /&gt;
+    
+    
+        &lt;p class=&quot;image-caption&quot;&gt;Basic summary of tests we did.&lt;/p&gt;
+    
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Review&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;What went well:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SMA was able to fully expand the mesh in the air&lt;/li&gt;
+  &lt;li&gt;The initial mesh PEG coating proved stiff enough to enter the brain.&lt;/li&gt;
+  &lt;li&gt;SMA successfully actuated in agar substitute&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Not so hot:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In order to test quickly, we had to use off-the-shelf SMA wire. The best wire for testing, unfortunately had an activation temperature of ~70 degrees celcius. The higher temperature meant that during testing, the agar also changed characteristics slightly.&lt;/li&gt;
+  &lt;li&gt;Despite trying multiple adhesives, all proved to have problems with controlling the amount dispensed onto the mesh.&lt;/li&gt;
+  &lt;li&gt;Weaving jigs were one-time use.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 11 Jun 2018 12:40:06 -0500</pubDate>
+        <link>http://buschnyj.github.io/bioengineering/2018/06/11/woven-neural-probes.html</link>
+        <guid isPermaLink="true">http://buschnyj.github.io/bioengineering/2018/06/11/woven-neural-probes.html</guid>
+        
+        <category>implants</category>
+        
+        <category>medical devices</category>
+        
+        
+        <category>Bioengineering</category>
+        
+      </item>
+    
+      <item>
+        <title>ESO exoskeleton, v3</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/eso/eso-v0-leg.jpg&quot; alt=&quot;Leg design with early body attachment parts.&quot; title=&quot;Early leg design with old attachment parts.&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+At the Human/Machine Design Lab, I was tasked with developing the body attachment parts for a third-generation exoskeleton. Our goal was to create a lightweight, entirely mechanical exoskeleton (i.e. no motors or hydraulics) for paralyzed patients. Our exoskeleton had to be:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Comfortable for extended periods of time (2-3 hours).&lt;/li&gt;
+  &lt;li&gt;Under a 20lb (9.07 kg) weight limit.&lt;/li&gt;
+  &lt;li&gt;Fit a variety of body types.&lt;/li&gt;
+  &lt;li&gt;Had to provide anklye support in the form of a platform that the patient stands on.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Unlike technical engineering problems, designing for comfortability is highly subjective from person to person. Initially, I evaluated almost a dozen current exoskeletons in other Universities. For additional reference, I read The Measure of Man: Human Factors in Design, by Henry Dreyfus.&lt;/p&gt;
+
+&lt;p&gt;Initial designs consisted of an aluminum bracket, surrounded by a 3D printed frame that distributed preasure along the thigh and calf. For securing limbs, 1.5” backpack strap was used. Various types of buckles were purchased for evaluation. Even with optimizing the file for strength, and increasing part density, the printed prototypes regularly broke. Instead, we pivoted towards thermoformed plastic. Glass-fiber reinforced polyethylene (PE) sheets were heated in a convection oven, then hand formed.&lt;/p&gt;
+
+&lt;p&gt;In all designs, high-density foam was attached to the frame using hook-and-loop (Velcro) strips.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/eso/eso-v3.jpg&quot; alt=&quot;placeholder&quot; title=&quot;Initial testing of eso leg.&quot; class=&quot;center-image&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Review&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;What went well:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We stayed under our 20lb weight limit, when factoring in both legs.&lt;/li&gt;
+  &lt;li&gt;Initial testing/measurement were encouraging. Coworker was able to take baby steps without using his muscles.&lt;/li&gt;
+  &lt;li&gt;Exoskeleton proved comfortable, even with hairy legs&lt;/li&gt;
+  &lt;li&gt;When I switched labs I successfully transfered my knowledge base, and a checklist of improvements to the person taking over my role.&lt;/li&gt;
+  &lt;li&gt;We were able to get the project ready in time despite an issue with a knee attachment bracket.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Not so hot:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I was slow to adjust my long-term scheduling spreadsheet when problems arose.&lt;/li&gt;
+  &lt;li&gt;3D printing prototypes took too long, and slowed down the cycle of testing/revising.&lt;/li&gt;
+  &lt;li&gt;I speced bolts that were overkill. There were plenty of opportunties to save even more weight.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 30 May 2018 12:40:06 -0500</pubDate>
+        <link>http://buschnyj.github.io/cad/2018/05/30/electrically-stimulating-orthosis.html</link>
+        <guid isPermaLink="true">http://buschnyj.github.io/cad/2018/05/30/electrically-stimulating-orthosis.html</guid>
+        
+        <category>3d printing</category>
+        
+        
+        <category>CAD</category>
+        
+      </item>
+    
+      <item>
+        <title>OpenPull</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/openpull/openpull-crop.jpg&quot; alt=&quot;Openpull&quot; title=&quot;Micropipette puller.&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt; Disclaimer: This project is still under development. I have not tested this using a current micropipette. This project uses flamable gas. I am not liable for injury resulted from recreating this project. I am still finalizing design, and am planning to release this project under the Open Source Hardware Association’s guidelines once v1.0 is completed. &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;With the advent or Arduino, Raspberry Pi, and commoditization of “jellybean” components, hardware is dropping in price. I want to bring the same access and affordability to bioengineering laboratories. As my first open source project, I designed a micropipette puller.&lt;/p&gt;
+
+&lt;p&gt;In order to probe cells and deposit accurate quantities of fluid, biological laboratories use a special machine to accurately make these pipettes. Current machines on the market are thousands of dollars, have a rudimentary user interface (UI).
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;An accurate, precise micropipette requires an accurate, precise machine. The main challenge was to find a way to inexpensively provide precise movement. I chose Makerslide because it allowed for zero play adjustment, and easily interfaces with standard-sized aluminum extrusion. To reduce slop as much as possible, I used a four-start lead screw combined with a delrin nut.&lt;/p&gt;
+
+&lt;p&gt;In order to provide heating, current micropipette pullers use a high-powered electrical heating element. Using a similar heating element was cost-prohibitive. Instead, I chose to control a bunsent burner using a solenoid valve rated for gas. In order to light the bunsen burner, I ripped out an ignitor/sparker module from a stove/grill lighter. The ignitor runs on a AAA battery, which can easily by replaced by the Arduino’s power pins.&lt;/p&gt;
+
+&lt;p&gt;For a frame, aluminum extrusion pieces were faced on a mill, and assembled with 90 degree brackets.&lt;/p&gt;
+
+&lt;p&gt;I used an Arduino Uno controller board, combined with stepper motor circuity as shown below. Based on my research, I used the DRV8825 chip since it had a strong following in the open-source community. Switching for the solenoid valve and the stepper motor were accomplished using MOSFETs.&lt;/p&gt;
+
+&lt;p&gt;The Arduino IDE does not provide many tools for C++ development. Instead, I used the Atom text editor, with PlatformIO integration.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;See picture above.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Review&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;What went well:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Project stayed on budget, despite issues with parts compatibility.&lt;/li&gt;
+  &lt;li&gt;Machining of aluminum parts created a very ridgid frame.&lt;/li&gt;
+  &lt;li&gt;Parts ordered from Aliexpress were of acceptable quality.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Not so hot:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tempermental circuit design for controlling solenoid valve.&lt;/li&gt;
+  &lt;li&gt;Project incomplete.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Things that still need to be done:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Micropipette testing, characterization.&lt;/li&gt;
+  &lt;li&gt;Finalize software&lt;/li&gt;
+  &lt;li&gt;Finalize electrical circuit design.&lt;/li&gt;
+  &lt;li&gt;Designing or finding an inexpensive way to hold the glass pipettes without breaking them.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 11 May 2018 12:40:06 -0500</pubDate>
+        <link>http://buschnyj.github.io/open-source/2018/05/11/OpenPull.html</link>
+        <guid isPermaLink="true">http://buschnyj.github.io/open-source/2018/05/11/OpenPull.html</guid>
+        
+        <category>open_source</category>
+        
+        <category>hardware</category>
+        
+        
+        <category>open-source</category>
+        
+      </item>
+    
+      <item>
+        <title>Soft Robotics</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/claw-v2-trimmed.jpg&quot; alt=&quot;Claw v2 trimmed&quot; title=&quot;It looks like icing&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Soft robotics have the potential to provide inexpensive, versatile, safe use in conjunction with humans. Materials to manufacture these robots, however, can be cost-prohibitive, especially with low-volume production. While researching materials, I came across an &lt;a href=&quot;https://www.instructables.com/id/How-To-Make-Your-Own-Sugru-Substitute/&quot;&gt;Instructables post&lt;/a&gt; on how to create a sugru substitute. Using corn starch and silicone caulk, the person created a sticky, yet flexible material for gluing and mounting items. I wanted to see if this forumla has sufficient properties to replace two-part silicone moulding compound in robotics applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I quickly wanted to get testing, so I used this &lt;a href=&quot;https://www.instructables.com/id/Air-Powered-Soft-Robotic-Gripper/&quot;&gt;four arm gripper&lt;/a&gt; based on research from Harvard.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The mould is filled with material and left to dry, while additional material is spread onto a flat surface, creating an elastic pancake. Once dried, the mould and the pancake are sealed together using additional compound. A tube is inserted into the central chamber. When pressure is applied, the orientation of the various air chambers cause the claw to close.&lt;/p&gt;
+
+&lt;p&gt;The mould was printed with black PLA using the following settings:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Infill: 12%&lt;/li&gt;
+  &lt;li&gt;outer perimeters: 3&lt;/li&gt;
+  &lt;li&gt;extruder temperature: 245 degrees celsius&lt;/li&gt;
+  &lt;li&gt;bed temperature: 60 degrees celsius&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- _includes/image.html --&gt;
+&lt;!-- add caption to images --&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+        &lt;img src=&quot;http://buschnyj.github.io//assets/images/mould-v1-printing.jpg&quot; alt=&quot;printing&quot; /&gt;
+    
+    
+        &lt;p class=&quot;image-caption&quot;&gt;The first mould was printed at too high of a temperature&lt;/p&gt;
+    
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;When the mould finished printing, wispy strands of PLA were left over from filament oozed out of the nozzle during non-printing movement. With a knife, I removed as much of the stringing as possible.&lt;/p&gt;
+
+&lt;p&gt;Per the directions, I combined approximately 12 pumps of silicone caulk, with a heaping tablespoon of cornstarch. Two things became apparent:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Silicone caulk smells like awfully strong vinegar.&lt;/li&gt;
+  &lt;li&gt;Adding the cornstarch turned the silicone into a paste that’s has to be spooned into the mould. I didn’t have a syringe large enough to extrude the paste, meaning that it’s more likely air gaps would appear in the casting.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!-- _includes/image.html --&gt;
+&lt;!-- add caption to images --&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+        &lt;img src=&quot;http://buschnyj.github.io//assets/images/claw-v1-underside.jpg&quot; alt=&quot;the first casting&quot; /&gt;
+    
+    
+        &lt;p class=&quot;image-caption&quot;&gt;The first casting. Note the bits of PLA (black spots), and how the paste wasn't fully compacted into the mould.&lt;/p&gt;
+    
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;!-- _includes/image.html --&gt;
+&lt;!-- add caption to images --&gt;&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+        &lt;img src=&quot;http://buschnyj.github.io//assets/images/claw-v2-underside.jpg&quot; alt=&quot;the second casting&quot; /&gt;
+    
+    
+        &lt;p class=&quot;image-caption&quot;&gt;The second casting turned out much better.&lt;/p&gt;
+    
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;As shown above, the silicone wasn’t pressed down hard enough. Another mould was printed, this time with machine changes listed below:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Temperature was lowered.&lt;/li&gt;
+  &lt;li&gt;Retraction enabled at 0.2 mm.&lt;/li&gt;
+  &lt;li&gt;Nozzle wiping enabled to 0.6 mm.&lt;/li&gt;
+  &lt;li&gt;Cooling fan raised to 100% speed.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The second casting proved suitable for use. 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!-- _includes/image.html --&gt;
+&lt;!-- add caption to images --&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+        &lt;img src=&quot;http://buschnyj.github.io//assets/images/claw-v2-all.jpg&quot; alt=&quot;the second version of the claw&quot; /&gt;
+    
+    
+        &lt;p class=&quot;image-caption&quot;&gt;The second casting of the claw.&lt;/p&gt;
+    
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;When I applied pressure through the syringe, the entire claw swelled, then a weak spot in the silicone gave way, breaking the seal.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!-- _includes/image.html --&gt;
+&lt;!-- add caption to images --&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+        &lt;img src=&quot;http://buschnyj.github.io//assets/images/claw-v2-blowout.jpg&quot; alt=&quot;claw blowout&quot; /&gt;
+    
+    
+        &lt;p class=&quot;image-caption&quot;&gt;A thin portion of the claw's underside blew out when pressure was applied.&lt;/p&gt;
+    
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Review&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;What went well:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Silicone mixture casted fairly well.&lt;/li&gt;
+  &lt;li&gt;Resulting gripper was somewhat flexible.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Not so hot:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I did not have a degasser to completely remove air bubbles when casting the gripper.&lt;/li&gt;
+  &lt;li&gt;The silicone mixture didn’t flow easily; I had to pack down the mixture into the mould.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;licensed under the Creative Commons - Attribution - Non-Commercial license. The mould STL file can be found &lt;a href=&quot;http://www.thingiverse.com/thing:66883&quot;&gt;here&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 08 May 2017 12:40:06 -0500</pubDate>
+        <link>http://buschnyj.github.io/hardware/2017/05/08/Soft-Robotics.html</link>
+        <guid isPermaLink="true">http://buschnyj.github.io/hardware/2017/05/08/Soft-Robotics.html</guid>
+        
+        
+        <category>hardware</category>
+        
+      </item>
+    
+      <item>
+        <title>Newton's Apple</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/newton-apple-final.jpg&quot; alt=&quot;Newton's Apple final&quot; title=&quot;What a happy apple!&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Newton’s Apple&lt;/em&gt; is a physics toy designed to help kids ages 6-12 learn the basic principles of forces. Children can load the toy with special SD cards containing their favorite song. As they catch, roll, and interact with the toy, the music speeds up or slows down depending on their movements. Sensitivity and volume adjust through the eyes, which are hidden dials.&lt;/p&gt;
+
+&lt;p&gt;This project was done from January-May 2016. Previously, my projects were causal collaborations or were exclusively to learn a new skill. I wanted to do a project that was more serious, with real critiques and more akin to something done on the job.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Early prototypes and Ideas:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/newton-apple-early.jpg&quot; alt=&quot;Arduino circuit for early prototype&quot; title=&quot;With early tests, we found the bend sensor too fragile for use.&quot; /&gt;
+&lt;img src=&quot;/assets/images/newton-apple-early-top.jpg&quot; alt=&quot;Arduino circuit top view&quot; title=&quot;Unsurprisingly, we used a breadboard to start developing.&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A “noise pillow” where an Arduino, light, and bend sensor are set up to make weird noises depending on where and how hard people squish the pillow.&lt;/li&gt;
+  &lt;li&gt;An emoji plush toy, which is similar to the noise pillow.&lt;/li&gt;
+  &lt;li&gt;A “Physics Bop It” type game where an Arduino, lights, and various sensors are encased in a laser-cut cube. Players must do various actions such as changing the color of the light and moving the cube a certain way before time runs out.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kids loved the plushness of our first two ideas, however our feedback indicated that the different tasks during the Physics Bop It were innovative and more engaging. We combined all three of the toys into our first iteration of Newton’s Apple.&lt;/p&gt;
+
+&lt;!-- _includes/image.html --&gt;
+&lt;!-- add caption to images --&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+        &lt;img src=&quot;http://buschnyj.github.io//assets/images/newton-apple-body.jpg&quot; alt=&quot;foam carving&quot; /&gt;
+    
+    
+        &lt;p class=&quot;image-caption&quot;&gt;The body was scuplted with an electric carving knife.&lt;/p&gt;
+    
+&lt;/div&gt;
+
+&lt;!-- _includes/image.html --&gt;
+&lt;!-- add caption to images --&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+        &lt;img src=&quot;http://buschnyj.github.io//assets/images/newton-apple-facial-hair.jpg&quot; alt=&quot;Newton Apple with facial hair&quot; /&gt;
+    
+    
+        &lt;p class=&quot;image-caption&quot;&gt;We prototyped with a thin, felt shell.&lt;/p&gt;
+    
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;An Arduino, combined with a speaker and potentiometer, control the toy.&lt;/li&gt;
+  &lt;li&gt;We used furniture foam for the body, as it was cheap and plentiful.&lt;/li&gt;
+  &lt;li&gt;A 3D printed case held the electronics in place.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Final iteration:&lt;/p&gt;
+
+&lt;!-- _includes/image.html --&gt;
+&lt;!-- add caption to images --&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+        &lt;img src=&quot;http://buschnyj.github.io//assets/images/newton-apple.jpg&quot; alt=&quot;Newton's Apple in shop&quot; /&gt;
+    
+    
+        &lt;p class=&quot;image-caption&quot;&gt;Our apple awaitng its photo shoot.&lt;/p&gt;
+    
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We enlarged the entire toy to beach-ball size.&lt;/li&gt;
+  &lt;li&gt;We 3D printed an SD card mounting slot so people can easily add their own song.&lt;/li&gt;
+  &lt;li&gt;We replaced the original felt fabric for something more softer.&lt;/li&gt;
+  &lt;li&gt;Potentiometers integrated into the eyes change volume and sensitivity.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/yk7f2fhxCEU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Review&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;What went well:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I’m better at idea generation and sorting. I’m better at generating criteria and choosing which idea to pursue.&lt;/li&gt;
+  &lt;li&gt;I gained real-world experience designing a toy that industry representatives scrutinized.&lt;/li&gt;
+  &lt;li&gt;Newton’s Apple feels like a premium product, especially with the thicker fabric.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Not so hot:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Early on, I thought our ideas were subpar. I let my thoughts get the best of me, and didn’t work as hard as my teammates.&lt;/li&gt;
+  &lt;li&gt;Some of our early prototypes were too coarse, limiting the amount of constructive feedback judges gave.&lt;/li&gt;
+  &lt;li&gt;I didn’t communicate as frequently with teammates during later builds.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If I were to do the project again, I would add bluetooth and app support so people can play their favorite playlist instantly through the apple.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Many thanks to Barry Kurdowitz and team for running &lt;a href=&quot;http://product.design.umn.edu/courses/pdes3711/pages/Gallery/apple.html&quot;&gt;PDES 3711&lt;/a&gt; Toy Product Design; it’s a superb class that anybody at UMN should take.&lt;/em&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 23 May 2016 12:40:06 -0500</pubDate>
+        <link>http://buschnyj.github.io/hardware/2016/05/23/Newton's-Apple.html</link>
+        <guid isPermaLink="true">http://buschnyj.github.io/hardware/2016/05/23/Newton's-Apple.html</guid>
+        
+        
+        <category>hardware</category>
+        
+      </item>
+    
+      <item>
+        <title>Photogammetry</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/kestrel-setup.jpg&quot; alt=&quot;kestrel setup&quot; title=&quot;Our setup.&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;For a side project, I 3D scanned taxidermied animals supplied by the Bell Museum of natural history. Like with library books, students can check out animals for educational purposes. In this case, I borrowed a kestrel and the skull from a red fox.&lt;/p&gt;
+
+&lt;p&gt;By chance, my photographer friend wanted to do some 3D scans. This project was spontaneous as opposed to planned. The capturing of photographs iteself took a few hours, while the stitching of the 3D models was left to run overnight.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Much like a photo shoot, we set up lights and a contrasting background to get as much detail as possible out of the photographs. To keep track of model rotation, we did a quick platform on our laser cutter. We took 95 photos for the kestrel, and 105 photos for the red fox skull.&lt;/p&gt;
+
+&lt;!-- _includes/image.html --&gt;
+&lt;!-- add caption to images --&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+        &lt;img src=&quot;http://buschnyj.github.io//assets/images/kestrel-on-printer.jpg&quot; alt=&quot;3D print of Kestrel&quot; /&gt;
+    
+    
+        &lt;p class=&quot;image-caption&quot;&gt;3D print test, ready for removal.&lt;/p&gt;
+    
+&lt;/div&gt;
+
+&lt;p&gt;The shop I was working at had a MakerGear M2, which I used to run a test print. 
+These are the specs:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Material: white ABS for model, HIPS for support.&lt;/li&gt;
+  &lt;li&gt;Settings: 12% infill, 5 outer shells, 0.2mm resolution.&lt;/li&gt;
+  &lt;li&gt;Post Processing: Acetone vapor bath for 10 minutes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To do the vapor bath, we lined the lip of a painter’s bucket with rags soaked in acetone, letting the rags hang about halfway down.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!-- _includes/image.html --&gt;
+&lt;!-- add caption to images --&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+        &lt;img src=&quot;http://buschnyj.github.io//assets/images/red-fox-skull.jpg&quot; alt=&quot;red fox skull&quot; /&gt;
+    
+    
+        &lt;p class=&quot;image-caption&quot;&gt;The red fox skull after point cloud processing.&lt;/p&gt;
+    
+&lt;/div&gt;
+
+&lt;!-- _includes/image.html --&gt;
+&lt;!-- add caption to images --&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+        &lt;img src=&quot;http://buschnyj.github.io//assets/images/kestrel.jpg&quot; alt=&quot;kestrel&quot; /&gt;
+    
+    
+        &lt;p class=&quot;image-caption&quot;&gt;The kestrel after point cloud processing.&lt;/p&gt;
+    
+&lt;/div&gt;
+
+&lt;!-- _includes/image.html --&gt;
+&lt;!-- add caption to images --&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+        &lt;img src=&quot;http://buschnyj.github.io//assets/images/kestrel-print.jpg&quot; alt=&quot;kestrel print&quot; /&gt;
+    
+    
+        &lt;p class=&quot;image-caption&quot;&gt;The kestrel test print.&lt;/p&gt;
+    
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Review&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;What went well:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The files were incredibly detailed.&lt;/li&gt;
+  &lt;li&gt;The color and texture were fairly accurate. The kestrel’s feathers are almost discernible.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Not so hot:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For the 3D print, I shrunk the kestrel model too small, which meant that the vapor bath didn’t work as well.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 23 Oct 2015 12:40:06 -0500</pubDate>
+        <link>http://buschnyj.github.io/project/2015/10/23/photogammetry.html</link>
+        <guid isPermaLink="true">http://buschnyj.github.io/project/2015/10/23/photogammetry.html</guid>
+        
+        <category>3d printing</category>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Smart Seatbelt</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/seatbelt-mvp.jpg&quot; alt=&quot;smart seatbelt&quot; title=&quot;Our finished design. We switched midway from a 3D printed case to a wooden one.&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Children being left in hot cars is quite common. To combat this, some friends and I decided to make a “smart seatbelt” that, when connected through an app, notifies a parent if they left their child in a car. This was my first hackathon, which lasted ten hours instead of the promised weekend.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The idea originally came from one of my friends/teammates. Naturally, we did a quick group brainstorm to flesh out ideas. To sense whether a baby was in the seat, we had two ideas. 1, a weight sensor at the bottom of the seat. And 2, a switch to tell whether the seatbelt is buckled. We hypothesized that the weight sensor will have more false alarms due to wedged objects and parents using the seat to hold items when not in use. Thus, we decided to go with the switch design. Due to the limited selection of materials on site, we decided the best way to sense whether the belt buckle was open or closed was to integrate a limit switch that would close when a person buckles the seatbelt.&lt;/p&gt;
+
+&lt;p&gt;The on-site 3D printer not only had a long queue, but it was malfunctioning. Quickly, we switched to a wooden prototype.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!-- _includes/image.html --&gt;
+&lt;!-- add caption to images --&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+        &lt;img src=&quot;http://buschnyj.github.io//assets/images/seatbelt-cad.jpg&quot; alt=&quot;Smart seatbelt CAD&quot; /&gt;
+    
+    
+        &lt;p class=&quot;image-caption&quot;&gt;The CAD design, almost finished.&lt;/p&gt;
+    
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Review&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;What went well:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This was my first hackathon.&lt;/li&gt;
+  &lt;li&gt;Everybody was productive.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Not so hot:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We ran out of time with app/bluetooth portion.&lt;/li&gt;
+  &lt;li&gt;We didn’t have enough time to 3D print the case.&lt;/li&gt;
+  &lt;li&gt;I spent too much time on the case.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Award&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Runner-up at 10,000 Makes Hackathon&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Oct 2015 12:40:06 -0500</pubDate>
+        <link>http://buschnyj.github.io/hardware/2015/10/23/smart-seatbelt.html</link>
+        <guid isPermaLink="true">http://buschnyj.github.io/hardware/2015/10/23/smart-seatbelt.html</guid>
+        
+        
+        <category>hardware</category>
+        
+      </item>
+    
+      <item>
+        <title>Cooling Fan</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/toshiba-fan-side.jpg&quot; alt=&quot;toshiba fan side&quot; title=&quot;Fans blow.&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Download model &lt;a href=&quot;https://grabcad.com/library/toshiba-pfl-6051-4a-brushless-fan-1&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I wanted to re-create a real-life object into CAD for practice. Actual measurement, design, and rendering took two afternoons to do.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I used a caliper, Autodesk Fusion 360, and a camera for the entire project.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;See above&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Review&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;What went well:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;All measurements were accurate.&lt;/li&gt;
+  &lt;li&gt;Rendering took approximately 12 minutes.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 23 Oct 2015 12:40:06 -0500</pubDate>
+        <link>http://buschnyj.github.io/cad/2015/10/23/cooling-fan.html</link>
+        <guid isPermaLink="true">http://buschnyj.github.io/cad/2015/10/23/cooling-fan.html</guid>
+        
+        <category>3d printing</category>
+        
+        
+        <category>CAD</category>
+        
+      </item>
+    
+      <item>
+        <title>Composite Forklift Arms</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/cf-arms-v2.jpg&quot; alt=&quot;testing arms&quot; title=&quot;Our new, low profile arms held the tote snugly.&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;During my final year of high school, our FIRST robotics team had the task of creating a robot that stacked recycling totes. I thought that our best chance at advancing to the next tournament was to win the innovation award. Composites are rarely seen in competition, so I thought it was an opportunity to stand out amongst the other teams. All versions of the arms were constructed between January-May 2015.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technical&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pre-season, I befriended a person who works with composites for marine applications. We hosted a class where our entire team learned the basics about composite materials and assembly. From there we formed a small team to work on the arms.&lt;/p&gt;
+
+&lt;p&gt;For sake of simplicity, our first arms were simply long rectangles that jutted out from right angle brackets. Three layers of carbon fiber flanked a core of thick fiberglass, for a total of seven layers. After wetting each side with a two-part epoxy, we clamped down the arms on sheets of acrylic, and allowed for the piece to cure overnight. The next day, we trimmed the edges on a bandsaw, drilled mounting holes, and touched up stray edges with additional epoxy.&lt;/p&gt;
+
+&lt;p&gt;The arms proved two flexible, so we cut added aluminum bars to stiffen them. Now, the arms held the tote snugly. We had extra carbon fiber oars, so we cut one lengthwise, replaced the aluminum bars with them, and wrapped the entire piece with more carbon fiber.&lt;/p&gt;
+
+&lt;!-- _includes/image.html --&gt;
+&lt;!-- add caption to images --&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+        &lt;img src=&quot;http://buschnyj.github.io//assets/images/cf-arms-robot-v1.jpg&quot; alt=&quot;early arms on robot&quot; /&gt;
+    
+    
+        &lt;p class=&quot;image-caption&quot;&gt;When we added the oars for stiffness, the extra girth caused the tote to easily slip.&lt;/p&gt;
+    
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;When we added the oars and extra material, the additonal girth caused the tote to easily slip out of the arms.&lt;/p&gt;
+
+&lt;p&gt;Starting from scratch, we designed new arms with and elongated “L” proflie. Now, the arms were stiff, lighter than the previous version, and had a low profile.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!-- _includes/image.html --&gt;
+&lt;!-- add caption to images --&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+    
+        &lt;img src=&quot;http://buschnyj.github.io//assets/images/cf-arms-v2-raw.jpg&quot; alt=&quot;testing of final arms&quot; /&gt;
+    
+    
+        &lt;p class=&quot;image-caption&quot;&gt;Our new, low-profile version of the arms awaits testing.&lt;/p&gt;
+    
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Review&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;What went well:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Arms were overall a success. They held the tote most of the time.&lt;/li&gt;
+  &lt;li&gt;Arms were lighter than comparable alloy versions.&lt;/li&gt;
+  &lt;li&gt;This was the first time we used composites.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Not so hot:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;During fast turns, the tote slipped out.&lt;/li&gt;
+  &lt;li&gt;Arms did not have much torsional rigidity, causing the aforementioned problem.&lt;/li&gt;
+  &lt;li&gt;The fit and finish were subpar, partly due to lack of precision cutting tools.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 23 Oct 2015 12:40:06 -0500</pubDate>
+        <link>http://buschnyj.github.io/hardware/2015/10/23/composite-forklift-arms.html</link>
+        <guid isPermaLink="true">http://buschnyj.github.io/hardware/2015/10/23/composite-forklift-arms.html</guid>
+        
+        
+        <category>hardware</category>
+        
+      </item>
+    
+  </channel>
+</rss>

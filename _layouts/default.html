@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header"> <!-- "mdl" == material design light -->
+      {% include header.html %}
+      {% include menu-left.html %}
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <div class="wrapper">
+            {{ content }}
+          </div>
+        </div>
+        {% include footer.html %}
+      </main>
+    </div>
+    {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %} <!-- google analytics implementation. the "if jekyll.env..." line prevents skewing of data when doing a localhost -->
+  </body>
+</html>

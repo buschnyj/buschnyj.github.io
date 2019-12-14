@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/favicon.png">
+
+    <title>Woven Neural Probes</title>
+    <meta name="description"
+          content="">
+
+    <!-- Material Design Lite CDN -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-pink.min.css">
+<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://buschnyj.github.io/bioengineering/2018/06/11/woven-neural-probes.html">
+    <link rel="alternate" type="application/rss+xml" title="Buschnyj" href="http://buschnyj.github.io/feed.xml" />
+</head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header"> <!-- "mdl" == material design light -->
+      <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+        <a class="site-title" href="/">
+            <span class="mdl-layout-title">Buschnyj</span>
+        </a>
+    </div>
+</header>
+      <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Justin Buschnyj</span>
+    <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="/">Home</a>
+        
+        
+        <a class="mdl-navigation__link" href="/about/">About</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a class="mdl-navigation__link" href="/work/">Past Work</a>
+        
+        
+    </nav>
+</div>
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <div class="wrapper">
+            <div class="post mdl-shadow--2dp">
+  <header class="post-header">
+    <h1 class="post-title">Woven Neural Probes</h1>
+    <p class="post-meta">Jun 11, 2018</p>
+  </header>
+  <article class="post-content">
+    <p><img src="/assets/images/wnp/mesh-v0-in-jig.jpg" alt="Woven mesh using muscle wire (SMA)." title="Mesh before coated in PEG." class="center-image" /></p>
+
+<p><br /></p>
+
+<p>Recently, scientists are reaching the limit of data that can be collected about the brain. If we want to do things like computational analysis, and neural net models, we are going to need much more data from individual neurons. At the BioSensing and BioRobotics lab, I helped develop affordable, flexible, neural probes for neurological research.</p>
+
+<p>Chronic implamentation further adds additional engineering issues. Implants physically shift, causing additional damage to tissue, and loosing signal quality with the original neuron it landed on. Scientists can only keep track of, and reposition so many neurons before severe tissue damage, or losing track of each neuron happens.</p>
+
+<p><br /></p>
+
+<p><strong>Technical</strong></p>
+
+<hr />
+
+<p><br /></p>
+
+<p>All versions of the tetrode wiring use SANDVIK tetrode wire (link here) with 0.0001” diameter. The wire consists of a highly conductive metal, with a thin coating of polyimide inssulanting the length of the wire. For SMA, we used wires from Flexinol (link here) ranging from 0.005”-0.001” diameter. Due to limited availability, all experiments used SMA wire that actuated at 70 degrees celcius. In reality, custom SMA wire with an actuation temperature closer to body temp will be used.</p>
+
+<p>Tetrode wire, which is a thin, highly conductive wire coated with a polyimide coating (purchase here) was used to pick up signals. Shape-memory alloy (SMA), also known as ‘muscle wire’, was purchased from Flexinol (here) in various lengths. Due to limited material availability, we used SMA wire that actuated at 70 degrees celcius. Various combinations of combining SMA and tetrode implant wired were tried.</p>
+
+<p>Due to the poor/insufficient binding, we swithed to one using a woven loom. A piece of 1/8” - thick acrylic was cut on a laser cutter in the pattern shown below. (below post a pictoral representation of the mesh, labeling holes for weaving and other important items). In previous experiments, my coworkers designed, etched, and got manufactured a circuit board to connect with computer. (show picture of circuit board and labbeles holes and where they go to).</p>
+
+<p>SMA wire was first woven into the desired pattern. Then, tetrode wire is woven throught the electrical connectors at the top of the circuit board, ending at the rest of the mesh. Once weaving was done, and all wires were taught, adhesive was carefully applied where SMA and tetrode wire crossed. To remove the mesh from the weaving jig, scissors were used to cut the SMA, then the tetrode.</p>
+
+<p><br /></p>
+
+<p><strong>Result</strong></p>
+
+<hr />
+
+<p><br /></p>
+
+<p>After ten trials, and one major design shift, we were able to successfully have a neural mesh expand in agar once heat was applied.</p>
+
+<!-- _includes/image.html -->
+<!-- add caption to images -->
+<div class="image-wrapper">
+    
+        <img src="http://buschnyj.github.io//assets/images/wnp/wnp-exp-chart.png" alt="Basic summary of tests we did." />
+    
+    
+        <p class="image-caption">Basic summary of tests we did.</p>
+    
+</div>
+
+<p><br /></p>
+
+<p><strong>Review</strong></p>
+
+<hr />
+
+<p><br /></p>
+
+<p>What went well:</p>
+
+<ul>
+  <li>SMA was able to fully expand the mesh in the air</li>
+  <li>The initial mesh PEG coating proved stiff enough to enter the brain.</li>
+  <li>SMA successfully actuated in agar substitute</li>
+</ul>
+
+<p>Not so hot:</p>
+
+<ul>
+  <li>In order to test quickly, we had to use off-the-shelf SMA wire. The best wire for testing, unfortunately had an activation temperature of ~70 degrees celcius. The higher temperature meant that during testing, the agar also changed characteristics slightly.</li>
+  <li>Despite trying multiple adhesives, all proved to have problems with controlling the amount dispensed onto the mesh.</li>
+  <li>Weaving jigs were one-time use.</li>
+</ul>
+
+  </article>
+</div>
+
+          </div>
+        </div>
+        <footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer__left-section">
+        <p>
+            Portfolio and occational blog.
+        </p>
+        <ul class="mdl-mini-footer__link-list">
+            <li>
+                <a href="/">Home</a>
+            </li>
+            
+            
+            <li>
+                <a href="/about/">About</a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li>
+                <a href="/work/">Past Work</a>
+            </li>
+            
+            
+        </ul>
+        <div class="copyright">
+            &copy; 2017 Justin Buschnyj | Design:&nbsp;<a href="https://github.com/ssokurenko/jekyll-smart-material">Jekyll&nbsp;Smart&nbsp;Material</a>
+        </div>
+    </div>
+</footer>
+      </main>
+    </div>
+     <!-- google analytics implementation. the "if jekyll.env..." line prevents skewing of data when doing a localhost -->
+  </body>
+</html>
