@@ -6,11 +6,11 @@ categories: Bioengineering
 tags:
 - implants
 - medical devices
-image: /desktop-image-sample.jpg
+image: wnp/sma-cover.jpg
 description: Flexible neural implants using muscle wire. Click to read more.  
 ---
 
-![Woven mesh using muscle wire (SMA).](/assets/images/desktop-image-sample.jpg "Mesh before coated in PEG."){: .center-image}
+![Woven mesh using muscle wire (SMA).](/assets/images/wnp/sma-cover.jpg "Mesh before coated in PEG."){: .center-image}
 
 <br>
 
