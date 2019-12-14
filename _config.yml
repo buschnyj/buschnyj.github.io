@@ -11,6 +11,6 @@ markdown: kramdown
 
 
 # Custom theme could be generated at: https://getmdl.io/customize/index.html
-material_theme: blue-deep_orange
+material_theme: black-deep_green
 
 # Google Analytics account ID (UA-XXXXXXXX-X) removed

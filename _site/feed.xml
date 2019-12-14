@@ -5,13 +5,13 @@
     <description>Portfolio.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Dec 2019 14:19:18 -0600</pubDate>
-    <lastBuildDate>Sat, 14 Dec 2019 14:19:18 -0600</lastBuildDate>
+    <pubDate>Sat, 14 Dec 2019 14:36:43 -0600</pubDate>
+    <lastBuildDate>Sat, 14 Dec 2019 14:36:43 -0600</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Woven Neural Probes</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/wnp/mesh-v0-in-jig.jpg&quot; alt=&quot;Woven mesh using muscle wire (SMA).&quot; title=&quot;Mesh before coated in PEG.&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/desktop-image-sample.jpg&quot; alt=&quot;Woven mesh using muscle wire (SMA).&quot; title=&quot;Mesh before coated in PEG.&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
