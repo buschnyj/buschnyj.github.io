@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Buschnyj</title>
-    <description>Portfolio and occational blog.</description>
-    <link>http://buschnyj.github.io/</link>
-    <atom:link href="http://buschnyj.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Dec 2019 00:06:35 -0600</pubDate>
-    <lastBuildDate>Sat, 14 Dec 2019 00:06:35 -0600</lastBuildDate>
+    <description>Portfolio.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 14 Dec 2019 13:56:05 -0600</pubDate>
+    <lastBuildDate>Sat, 14 Dec 2019 13:56:05 -0600</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -49,7 +49,7 @@
 &lt;!-- add caption to images --&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://buschnyj.github.io//assets/images/wnp/wnp-exp-chart.png&quot; alt=&quot;Basic summary of tests we did.&quot; /&gt;
+        &lt;img src=&quot;http://localhost:4000//assets/images/wnp/wnp-exp-chart.png&quot; alt=&quot;Basic summary of tests we did.&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;Basic summary of tests we did.&lt;/p&gt;
@@ -81,8 +81,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 11 Jun 2018 12:40:06 -0500</pubDate>
-        <link>http://buschnyj.github.io/bioengineering/2018/06/11/woven-neural-probes.html</link>
-        <guid isPermaLink="true">http://buschnyj.github.io/bioengineering/2018/06/11/woven-neural-probes.html</guid>
+        <link>http://localhost:4000/bioengineering/2018/06/11/woven-neural-probes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/bioengineering/2018/06/11/woven-neural-probes.html</guid>
         
         <category>implants</category>
         
@@ -158,8 +158,8 @@ At the Human/Machine Design Lab, I was tasked with developing the body attachmen
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 30 May 2018 12:40:06 -0500</pubDate>
-        <link>http://buschnyj.github.io/cad/2018/05/30/electrically-stimulating-orthosis.html</link>
-        <guid isPermaLink="true">http://buschnyj.github.io/cad/2018/05/30/electrically-stimulating-orthosis.html</guid>
+        <link>http://localhost:4000/cad/2018/05/30/electrically-stimulating-orthosis.html</link>
+        <guid isPermaLink="true">http://localhost:4000/cad/2018/05/30/electrically-stimulating-orthosis.html</guid>
         
         <category>3d printing</category>
         
@@ -240,8 +240,8 @@ At the Human/Machine Design Lab, I was tasked with developing the body attachmen
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 11 May 2018 12:40:06 -0500</pubDate>
-        <link>http://buschnyj.github.io/open-source/2018/05/11/OpenPull.html</link>
-        <guid isPermaLink="true">http://buschnyj.github.io/open-source/2018/05/11/OpenPull.html</guid>
+        <link>http://localhost:4000/open-source/2018/05/11/OpenPull.html</link>
+        <guid isPermaLink="true">http://localhost:4000/open-source/2018/05/11/OpenPull.html</guid>
         
         <category>open_source</category>
         
@@ -283,7 +283,7 @@ At the Human/Machine Design Lab, I was tasked with developing the body attachmen
 &lt;!-- add caption to images --&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://buschnyj.github.io//assets/images/mould-v1-printing.jpg&quot; alt=&quot;printing&quot; /&gt;
+        &lt;img src=&quot;http://localhost:4000//assets/images/mould-v1-printing.jpg&quot; alt=&quot;printing&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;The first mould was printed at too high of a temperature&lt;/p&gt;
@@ -307,7 +307,7 @@ At the Human/Machine Design Lab, I was tasked with developing the body attachmen
 &lt;!-- add caption to images --&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://buschnyj.github.io//assets/images/claw-v1-underside.jpg&quot; alt=&quot;the first casting&quot; /&gt;
+        &lt;img src=&quot;http://localhost:4000//assets/images/claw-v1-underside.jpg&quot; alt=&quot;the first casting&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;The first casting. Note the bits of PLA (black spots), and how the paste wasn't fully compacted into the mould.&lt;/p&gt;
@@ -319,7 +319,7 @@ At the Human/Machine Design Lab, I was tasked with developing the body attachmen
 &lt;!-- add caption to images --&gt;&lt;/p&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://buschnyj.github.io//assets/images/claw-v2-underside.jpg&quot; alt=&quot;the second casting&quot; /&gt;
+        &lt;img src=&quot;http://localhost:4000//assets/images/claw-v2-underside.jpg&quot; alt=&quot;the second casting&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;The second casting turned out much better.&lt;/p&gt;
@@ -350,7 +350,7 @@ At the Human/Machine Design Lab, I was tasked with developing the body attachmen
 &lt;!-- add caption to images --&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://buschnyj.github.io//assets/images/claw-v2-all.jpg&quot; alt=&quot;the second version of the claw&quot; /&gt;
+        &lt;img src=&quot;http://localhost:4000//assets/images/claw-v2-all.jpg&quot; alt=&quot;the second version of the claw&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;The second casting of the claw.&lt;/p&gt;
@@ -367,7 +367,7 @@ At the Human/Machine Design Lab, I was tasked with developing the body attachmen
 &lt;!-- add caption to images --&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://buschnyj.github.io//assets/images/claw-v2-blowout.jpg&quot; alt=&quot;claw blowout&quot; /&gt;
+        &lt;img src=&quot;http://localhost:4000//assets/images/claw-v2-blowout.jpg&quot; alt=&quot;claw blowout&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;A thin portion of the claw's underside blew out when pressure was applied.&lt;/p&gt;
@@ -409,8 +409,8 @@ At the Human/Machine Design Lab, I was tasked with developing the body attachmen
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 08 May 2017 12:40:06 -0500</pubDate>
-        <link>http://buschnyj.github.io/hardware/2017/05/08/Soft-Robotics.html</link>
-        <guid isPermaLink="true">http://buschnyj.github.io/hardware/2017/05/08/Soft-Robotics.html</guid>
+        <link>http://localhost:4000/hardware/2017/05/08/Soft-Robotics.html</link>
+        <guid isPermaLink="true">http://localhost:4000/hardware/2017/05/08/Soft-Robotics.html</guid>
         
         
         <category>hardware</category>
@@ -454,7 +454,7 @@ At the Human/Machine Design Lab, I was tasked with developing the body attachmen
 &lt;!-- add caption to images --&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://buschnyj.github.io//assets/images/newton-apple-body.jpg&quot; alt=&quot;foam carving&quot; /&gt;
+        &lt;img src=&quot;http://localhost:4000//assets/images/newton-apple-body.jpg&quot; alt=&quot;foam carving&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;The body was scuplted with an electric carving knife.&lt;/p&gt;
@@ -465,7 +465,7 @@ At the Human/Machine Design Lab, I was tasked with developing the body attachmen
 &lt;!-- add caption to images --&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://buschnyj.github.io//assets/images/newton-apple-facial-hair.jpg&quot; alt=&quot;Newton Apple with facial hair&quot; /&gt;
+        &lt;img src=&quot;http://localhost:4000//assets/images/newton-apple-facial-hair.jpg&quot; alt=&quot;Newton Apple with facial hair&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;We prototyped with a thin, felt shell.&lt;/p&gt;
@@ -486,7 +486,7 @@ At the Human/Machine Design Lab, I was tasked with developing the body attachmen
 &lt;!-- add caption to images --&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://buschnyj.github.io//assets/images/newton-apple.jpg&quot; alt=&quot;Newton's Apple in shop&quot; /&gt;
+        &lt;img src=&quot;http://localhost:4000//assets/images/newton-apple.jpg&quot; alt=&quot;Newton's Apple in shop&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;Our apple awaitng its photo shoot.&lt;/p&gt;
@@ -544,8 +544,8 @@ At the Human/Machine Design Lab, I was tasked with developing the body attachmen
 
 </description>
         <pubDate>Mon, 23 May 2016 12:40:06 -0500</pubDate>
-        <link>http://buschnyj.github.io/hardware/2016/05/23/Newton's-Apple.html</link>
-        <guid isPermaLink="true">http://buschnyj.github.io/hardware/2016/05/23/Newton's-Apple.html</guid>
+        <link>http://localhost:4000/hardware/2016/05/23/Newton's-Apple.html</link>
+        <guid isPermaLink="true">http://localhost:4000/hardware/2016/05/23/Newton's-Apple.html</guid>
         
         
         <category>hardware</category>
@@ -576,7 +576,7 @@ At the Human/Machine Design Lab, I was tasked with developing the body attachmen
 &lt;!-- add caption to images --&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://buschnyj.github.io//assets/images/kestrel-on-printer.jpg&quot; alt=&quot;3D print of Kestrel&quot; /&gt;
+        &lt;img src=&quot;http://localhost:4000//assets/images/kestrel-on-printer.jpg&quot; alt=&quot;3D print of Kestrel&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;3D print test, ready for removal.&lt;/p&gt;
@@ -606,7 +606,7 @@ These are the specs:&lt;/p&gt;
 &lt;!-- add caption to images --&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://buschnyj.github.io//assets/images/red-fox-skull.jpg&quot; alt=&quot;red fox skull&quot; /&gt;
+        &lt;img src=&quot;http://localhost:4000//assets/images/red-fox-skull.jpg&quot; alt=&quot;red fox skull&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;The red fox skull after point cloud processing.&lt;/p&gt;
@@ -617,7 +617,7 @@ These are the specs:&lt;/p&gt;
 &lt;!-- add caption to images --&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://buschnyj.github.io//assets/images/kestrel.jpg&quot; alt=&quot;kestrel&quot; /&gt;
+        &lt;img src=&quot;http://localhost:4000//assets/images/kestrel.jpg&quot; alt=&quot;kestrel&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;The kestrel after point cloud processing.&lt;/p&gt;
@@ -628,7 +628,7 @@ These are the specs:&lt;/p&gt;
 &lt;!-- add caption to images --&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://buschnyj.github.io//assets/images/kestrel-print.jpg&quot; alt=&quot;kestrel print&quot; /&gt;
+        &lt;img src=&quot;http://localhost:4000//assets/images/kestrel-print.jpg&quot; alt=&quot;kestrel print&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;The kestrel test print.&lt;/p&gt;
@@ -657,8 +657,8 @@ These are the specs:&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 23 Oct 2015 12:40:06 -0500</pubDate>
-        <link>http://buschnyj.github.io/project/2015/10/23/photogammetry.html</link>
-        <guid isPermaLink="true">http://buschnyj.github.io/project/2015/10/23/photogammetry.html</guid>
+        <link>http://localhost:4000/project/2015/10/23/photogammetry.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2015/10/23/photogammetry.html</guid>
         
         <category>3d printing</category>
         
@@ -699,7 +699,7 @@ These are the specs:&lt;/p&gt;
 &lt;!-- add caption to images --&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://buschnyj.github.io//assets/images/seatbelt-cad.jpg&quot; alt=&quot;Smart seatbelt CAD&quot; /&gt;
+        &lt;img src=&quot;http://localhost:4000//assets/images/seatbelt-cad.jpg&quot; alt=&quot;Smart seatbelt CAD&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;The CAD design, almost finished.&lt;/p&gt;
@@ -742,8 +742,8 @@ These are the specs:&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 23 Oct 2015 12:40:06 -0500</pubDate>
-        <link>http://buschnyj.github.io/hardware/2015/10/23/smart-seatbelt.html</link>
-        <guid isPermaLink="true">http://buschnyj.github.io/hardware/2015/10/23/smart-seatbelt.html</guid>
+        <link>http://localhost:4000/hardware/2015/10/23/smart-seatbelt.html</link>
+        <guid isPermaLink="true">http://localhost:4000/hardware/2015/10/23/smart-seatbelt.html</guid>
         
         
         <category>hardware</category>
@@ -796,8 +796,8 @@ These are the specs:&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 23 Oct 2015 12:40:06 -0500</pubDate>
-        <link>http://buschnyj.github.io/cad/2015/10/23/cooling-fan.html</link>
-        <guid isPermaLink="true">http://buschnyj.github.io/cad/2015/10/23/cooling-fan.html</guid>
+        <link>http://localhost:4000/cad/2015/10/23/cooling-fan.html</link>
+        <guid isPermaLink="true">http://localhost:4000/cad/2015/10/23/cooling-fan.html</guid>
         
         <category>3d printing</category>
         
@@ -832,7 +832,7 @@ These are the specs:&lt;/p&gt;
 &lt;!-- add caption to images --&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://buschnyj.github.io//assets/images/cf-arms-robot-v1.jpg&quot; alt=&quot;early arms on robot&quot; /&gt;
+        &lt;img src=&quot;http://localhost:4000//assets/images/cf-arms-robot-v1.jpg&quot; alt=&quot;early arms on robot&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;When we added the oars for stiffness, the extra girth caused the tote to easily slip.&lt;/p&gt;
@@ -857,7 +857,7 @@ These are the specs:&lt;/p&gt;
 &lt;!-- add caption to images --&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://buschnyj.github.io//assets/images/cf-arms-v2-raw.jpg&quot; alt=&quot;testing of final arms&quot; /&gt;
+        &lt;img src=&quot;http://localhost:4000//assets/images/cf-arms-v2-raw.jpg&quot; alt=&quot;testing of final arms&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;Our new, low-profile version of the arms awaits testing.&lt;/p&gt;
@@ -889,8 +889,8 @@ These are the specs:&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 23 Oct 2015 12:40:06 -0500</pubDate>
-        <link>http://buschnyj.github.io/hardware/2015/10/23/composite-forklift-arms.html</link>
-        <guid isPermaLink="true">http://buschnyj.github.io/hardware/2015/10/23/composite-forklift-arms.html</guid>
+        <link>http://localhost:4000/hardware/2015/10/23/composite-forklift-arms.html</link>
+        <guid isPermaLink="true">http://localhost:4000/hardware/2015/10/23/composite-forklift-arms.html</guid>
         
         
         <category>hardware</category>
