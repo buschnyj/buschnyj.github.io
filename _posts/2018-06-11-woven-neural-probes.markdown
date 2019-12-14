@@ -10,7 +10,7 @@ image: /wnp/sma-cover.jpg
 description: Flexible neural implants using muscle wire. Click to read more.  
 ---
 
-![Woven mesh using muscle wire (SMA).](/assets/images/wnp/sma-cover.jpg "Mesh before coated in PEG."){: .center-image}
+![Woven mesh using muscle wire (SMA).](/assets/images/wnp/mesh-v0-in-jig.jpg "Mesh before coated in PEG."){: .center-image}
 
 <br>
 
@@ -30,7 +30,7 @@ All versions of the tetrode wiring use SANDVIK tetrode wire (link here) with 0.0
 
 Tetrode wire, which is a thin, highly conductive wire coated with a polyimide coating (purchase here) was used to pick up signals. Shape-memory alloy (SMA), also known as ‘muscle wire’, was purchased from Flexinol (here) in various lengths. Due to limited material availability, we used SMA wire that actuated at 70 degrees celcius. Various combinations of combining SMA and tetrode implant wired were tried.
 
-Due to the poor/insufficient binding, we swithed to one using a woven loom. A piece of 1/8” - thick acrylic was cut on a laser cutter in the pattern shown below. (below post a pictoral representation of the mesh, labeling holes for weaving and other important items). In previous experiments, my coworkers designed, etched, and got manufactured a circuit board to connect with computer. (show picture of circuit board and labbeles holes and where they go to).
+Due to the poor/insufficient binding, we swithed to one using a woven loom. A piece of 1/8” - thick acrylic was cut on a laser cutter in the pattern shown below. (below post a pictoral representation of the mesh, labeling holes for weaving and other important items). In previous experiments, my coworkers designed, etched, and got manufactured a circuit board to connect with computer.
 
 SMA wire was first woven into the desired pattern. Then, tetrode wire is woven throught the electrical connectors at the top of the circuit board, ending at the rest of the mesh. Once weaving was done, and all wires were taught, adhesive was carefully applied where SMA and tetrode wire crossed. To remove the mesh from the weaving jig, scissors were used to cut the SMA, then the tetrode.
 
