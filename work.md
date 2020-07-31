@@ -41,10 +41,26 @@ May 2017 - June 2018
 
 **Research Assistant**
 
+May 2017 - October 2017
+
 [Human/Machine Design Laboratory](http://dept.me.umn.edu/labs/hmd/)
 
 - Helped develop exoskeleton for paralyzed patients, in conjunction with the VA Medical Center of Minneapolis. 
 - Created prototypes for body attachment parts, while maintaining 20 lb weight limit. 
+
+<br>
+
+---
+
+<br>
+
+**Consultant**
+
+September 2016 - April 2017
+
+- Conducted early-stage research, development, and prototyping of sports equipment for a startup.
+- Created CAD designs using Autodesk Fusion 360.
+- Created product prototypes using plastic bending and CNC routing methods.
 
 <br>
 
