@@ -12,7 +12,9 @@ October 2018 - Present
 
 [Bioblaze Community Biolab](http://bioblaze.org)
 
-Assist with lab organization, inventory, and planning. Current focus on chitosan and mycelium-based biomaterials. Basic work with CRISPR, mammalian cell culutures, brewing, custom plasmids, low-cost microfluidics.
+- Assist with lab organization, inventory, and planning. 
+- Current focus on chitosan and mycelium-based biomaterials. 
+- Basic work with CRISPR, mammalian cell culutures, brewing, custom plasmids, low-cost microfluidics.
 
 <br>
 
@@ -24,11 +26,12 @@ Assist with lab organization, inventory, and planning. Current focus on chitosan
 
 May 2017 - June 2018
 
-[Biosensing and BioRobotics Lab]()
+[Biosensing and BioRobotics Lab](https://www.bsbrl.org/)
 
-Research/Development into integrating Shape-Memory Alloys (SMA's) into neural implants. Additional work with open-source bioengineering equipment. 
+- Research/Development into integrating Shape-Memory Alloys (SMA's) into neural implants. Additional work with open-source bioengineering equipment. 
+- Lab management. Conducted purchase orders, lab reorganization, equipment planning for entire group.
+- SMA neural implant work was published in the  ASME 2018 Conference on Smart Materials, Adaptive Structures and Intelligent Systems journal. Paper can be found [here](https://doi.org/10.1115/SMASIS2018-8169).
 
-Lab management. Conducted purchase orders, lab reorganization, equipment planning for entire group.
 
 <br>
 
@@ -38,9 +41,10 @@ Lab management. Conducted purchase orders, lab reorganization, equipment plannin
 
 **Research Assistant**
 
-[Human/Machine Design Laboratory]()
+[Human/Machine Design Laboratory](http://dept.me.umn.edu/labs/hmd/)
 
-Helped develop exoskeleton for paralyzed patients, in conjunction with the VA Medical Center of Minneapolis. 
+- Helped develop exoskeleton for paralyzed patients, in conjunction with the VA Medical Center of Minneapolis. 
+- Created prototypes for body attachment parts, while maintaining 20 lb weight limit. 
 
 <br>
 
@@ -54,8 +58,8 @@ September 2015 - May 2016
 
 [XYZ Lab](http://umnxyzlab.blogspot.com)
 
-Machinist and shop manager at University of Minnesota’s maker lab.
-Prototyped projects for Acara Challenge, Carlson School of Management, College of Liberal Arts.
+- Machinist and shop manager at University of Minnesota’s maker lab.
+- Prototyped projects for Acara Challenge, Carlson School of Management, College of Liberal Arts.
 
 <br>
 
@@ -69,8 +73,8 @@ June 2015 – August 2015
 
 [Bitspace](http://bitspace.camp)
 
-Part-time teacher at Chicago’s first youth-oriented maker space.
-Introduced children to basic woodworking, machining, electronics, and product development.
+- Part-time teacher at Chicago’s first youth-oriented maker space.
+- Introduced children to basic woodworking, machining, electronics, and product development.
 
 <br>
 
@@ -84,5 +88,6 @@ June 2014 – August 2014
 
 [Inventables](http://inventables.com)
 
-Assisted with generating media for Carvey 3D carving machine (photo, video).
-Gained extensive insight into how to run and organize a company.
+- Assisted with generating media for Carvey 3D carving machine (photo, video).
+- Helped manage social media accounts. Doubled the number of Twitter followers to 30,000. 
+- Gained extensive insight into how to run and organize a company.

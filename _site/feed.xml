@@ -5,17 +5,21 @@
     <description>Portfolio.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Dec 2019 14:36:43 -0600</pubDate>
-    <lastBuildDate>Sat, 14 Dec 2019 14:36:43 -0600</lastBuildDate>
+    <pubDate>Fri, 31 Jul 2020 12:17:52 -0400</pubDate>
+    <lastBuildDate>Fri, 31 Jul 2020 12:17:52 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Woven Neural Probes</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/desktop-image-sample.jpg&quot; alt=&quot;Woven mesh using muscle wire (SMA).&quot; title=&quot;Mesh before coated in PEG.&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/wnp/sma-cover.jpg&quot; alt=&quot;Woven mesh using muscle wire (SMA).&quot; title=&quot;Mesh before coated in PEG.&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Recently, scientists are reaching the limit of data that can be collected about the brain. If we want to do things like computational analysis, and neural net models, we are going to need much more data from individual neurons. At the BioSensing and BioRobotics lab, I helped develop affordable, flexible, neural probes for neurological research.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1115/SMASIS2018-8169&quot;&gt;Paper: doi.org/10.1115/SMASIS2018-8169&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Scientists are reaching the limit of data that can be collected about the brain.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; If we want to do things like computational analysis, and neural net models, we are going to need much more data from individual neurons.&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; At the BioSensing and BioRobotics lab, I helped develop affordable, flexible, neural probes for neurological research.&lt;/p&gt;
 
 &lt;p&gt;Chronic implamentation further adds additional engineering issues. Implants physically shift, causing additional damage to tissue, and loosing signal quality with the original neuron it landed on. Scientists can only keep track of, and reposition so many neurons before severe tissue damage, or losing track of each neuron happens.&lt;/p&gt;
 
@@ -67,6 +71,7 @@
 &lt;p&gt;What went well:&lt;/p&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;Work was published in the ASME 2018 Conference on Smart Materials, Adaptive Structures and Intelligent Systems journal.&lt;/li&gt;
   &lt;li&gt;SMA was able to fully expand the mesh in the air&lt;/li&gt;
   &lt;li&gt;The initial mesh PEG coating proved stiff enough to enter the brain.&lt;/li&gt;
   &lt;li&gt;SMA successfully actuated in agar substitute&lt;/li&gt;
@@ -79,8 +84,25 @@
   &lt;li&gt;Despite trying multiple adhesives, all proved to have problems with controlling the amount dispensed onto the mesh.&lt;/li&gt;
   &lt;li&gt;Weaving jigs were one-time use.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Guo L (2016) The Pursuit of Chronically Reliable Neural Interfaces: A Materials Perspective. Front. Neurosci. 10:599. &lt;a href=&quot;https://www.frontiersin.org/articles/10.3389/fnins.2016.00599/full&quot;&gt;doi: 10.3389/fnins.2016.00599&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Schmidt, Christian &amp;amp; Grant, Peadar &amp;amp; Lowery, Madeleine &amp;amp; van Rienen, Ursula. (2012). Influence of Uncertainties in the Material Properties of Brain Tissue on the Probabilistic Volume of Tissue Activated. IEEE transactions on bio-medical engineering. 60. &lt;a href=&quot;https://www.insight-centre.org/sites/default/files/publications/17.260_inflience_of_uncertainties_in_the_material_properties_of_brain_tissue_on_the_probablistic_volume_of_tissue_activated.pdf&quot;&gt;10.1109/TBME.2012.2235835&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </description>
-        <pubDate>Mon, 11 Jun 2018 12:40:06 -0500</pubDate>
+        <pubDate>Mon, 11 Jun 2018 13:40:06 -0400</pubDate>
         <link>http://localhost:4000/bioengineering/2018/06/11/woven-neural-probes.html</link>
         <guid isPermaLink="true">http://localhost:4000/bioengineering/2018/06/11/woven-neural-probes.html</guid>
         
@@ -157,7 +179,7 @@ At the Human/Machine Design Lab, I was tasked with developing the body attachmen
   &lt;li&gt;I speced bolts that were overkill. There were plenty of opportunties to save even more weight.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Wed, 30 May 2018 12:40:06 -0500</pubDate>
+        <pubDate>Wed, 30 May 2018 13:40:06 -0400</pubDate>
         <link>http://localhost:4000/cad/2018/05/30/electrically-stimulating-orthosis.html</link>
         <guid isPermaLink="true">http://localhost:4000/cad/2018/05/30/electrically-stimulating-orthosis.html</guid>
         
@@ -239,7 +261,7 @@ At the Human/Machine Design Lab, I was tasked with developing the body attachmen
   &lt;li&gt;Designing or finding an inexpensive way to hold the glass pipettes without breaking them.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 11 May 2018 12:40:06 -0500</pubDate>
+        <pubDate>Fri, 11 May 2018 13:40:06 -0400</pubDate>
         <link>http://localhost:4000/open-source/2018/05/11/OpenPull.html</link>
         <guid isPermaLink="true">http://localhost:4000/open-source/2018/05/11/OpenPull.html</guid>
         
@@ -408,7 +430,7 @@ At the Human/Machine Design Lab, I was tasked with developing the body attachmen
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Mon, 08 May 2017 12:40:06 -0500</pubDate>
+        <pubDate>Mon, 08 May 2017 13:40:06 -0400</pubDate>
         <link>http://localhost:4000/hardware/2017/05/08/Soft-Robotics.html</link>
         <guid isPermaLink="true">http://localhost:4000/hardware/2017/05/08/Soft-Robotics.html</guid>
         
@@ -543,7 +565,7 @@ At the Human/Machine Design Lab, I was tasked with developing the body attachmen
 &lt;p&gt;&lt;em&gt;Many thanks to Barry Kurdowitz and team for running &lt;a href=&quot;http://product.design.umn.edu/courses/pdes3711/pages/Gallery/apple.html&quot;&gt;PDES 3711&lt;/a&gt; Toy Product Design; it’s a superb class that anybody at UMN should take.&lt;/em&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 23 May 2016 12:40:06 -0500</pubDate>
+        <pubDate>Mon, 23 May 2016 13:40:06 -0400</pubDate>
         <link>http://localhost:4000/hardware/2016/05/23/Newton's-Apple.html</link>
         <guid isPermaLink="true">http://localhost:4000/hardware/2016/05/23/Newton's-Apple.html</guid>
         
@@ -656,7 +678,7 @@ These are the specs:&lt;/p&gt;
   &lt;li&gt;For the 3D print, I shrunk the kestrel model too small, which meant that the vapor bath didn’t work as well.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 23 Oct 2015 12:40:06 -0500</pubDate>
+        <pubDate>Fri, 23 Oct 2015 13:40:06 -0400</pubDate>
         <link>http://localhost:4000/project/2015/10/23/photogammetry.html</link>
         <guid isPermaLink="true">http://localhost:4000/project/2015/10/23/photogammetry.html</guid>
         
@@ -741,7 +763,7 @@ These are the specs:&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 23 Oct 2015 12:40:06 -0500</pubDate>
+        <pubDate>Fri, 23 Oct 2015 13:40:06 -0400</pubDate>
         <link>http://localhost:4000/hardware/2015/10/23/smart-seatbelt.html</link>
         <guid isPermaLink="true">http://localhost:4000/hardware/2015/10/23/smart-seatbelt.html</guid>
         
@@ -795,7 +817,7 @@ These are the specs:&lt;/p&gt;
   &lt;li&gt;Rendering took approximately 12 minutes.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 23 Oct 2015 12:40:06 -0500</pubDate>
+        <pubDate>Fri, 23 Oct 2015 13:40:06 -0400</pubDate>
         <link>http://localhost:4000/cad/2015/10/23/cooling-fan.html</link>
         <guid isPermaLink="true">http://localhost:4000/cad/2015/10/23/cooling-fan.html</guid>
         
@@ -888,7 +910,7 @@ These are the specs:&lt;/p&gt;
   &lt;li&gt;The fit and finish were subpar, partly due to lack of precision cutting tools.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 23 Oct 2015 12:40:06 -0500</pubDate>
+        <pubDate>Fri, 23 Oct 2015 13:40:06 -0400</pubDate>
         <link>http://localhost:4000/hardware/2015/10/23/composite-forklift-arms.html</link>
         <guid isPermaLink="true">http://localhost:4000/hardware/2015/10/23/composite-forklift-arms.html</guid>
         

@@ -14,7 +14,11 @@ description: Flexible neural implants using muscle wire. Click to read more.
 
 <br>
 
-Recently, scientists are reaching the limit of data that can be collected about the brain. If we want to do things like computational analysis, and neural net models, we are going to need much more data from individual neurons. At the BioSensing and BioRobotics lab, I helped develop affordable, flexible, neural probes for neurological research.
+[Paper: doi.org/10.1115/SMASIS2018-8169](https://doi.org/10.1115/SMASIS2018-8169)
+
+<br>
+
+Scientists are reaching the limit of data that can be collected about the brain.[^1] If we want to do things like computational analysis, and neural net models, we are going to need much more data from individual neurons.[^2] At the BioSensing and BioRobotics lab, I helped develop affordable, flexible, neural probes for neurological research.
 
 Chronic implamentation further adds additional engineering issues. Implants physically shift, causing additional damage to tissue, and loosing signal quality with the original neuron it landed on. Scientists can only keep track of, and reposition so many neurons before severe tissue damage, or losing track of each neuron happens.
 
@@ -59,6 +63,7 @@ After ten trials, and one major design shift, we were able to successfully have 
 
 What went well:
 
+- Work was published in the ASME 2018 Conference on Smart Materials, Adaptive Structures and Intelligent Systems journal.
 - SMA was able to fully expand the mesh in the air
 - The initial mesh PEG coating proved stiff enough to enter the brain.
 - SMA successfully actuated in agar substitute
@@ -68,3 +73,13 @@ Not so hot:
 - In order to test quickly, we had to use off-the-shelf SMA wire. The best wire for testing, unfortunately had an activation temperature of ~70 degrees celcius. The higher temperature meant that during testing, the agar also changed characteristics slightly.
 - Despite trying multiple adhesives, all proved to have problems with controlling the amount dispensed onto the mesh. 
 - Weaving jigs were one-time use. 
+
+<br>
+
+---
+
+<br>
+
+[^1]: Guo L (2016) The Pursuit of Chronically Reliable Neural Interfaces: A Materials Perspective. Front. Neurosci. 10:599. [doi: 10.3389/fnins.2016.00599](https://www.frontiersin.org/articles/10.3389/fnins.2016.00599/full).
+
+[^2]: Schmidt, Christian & Grant, Peadar & Lowery, Madeleine & van Rienen, Ursula. (2012). Influence of Uncertainties in the Material Properties of Brain Tissue on the Probabilistic Volume of Tissue Activated. IEEE transactions on bio-medical engineering. 60. [10.1109/TBME.2012.2235835](https://www.insight-centre.org/sites/default/files/publications/17.260_inflience_of_uncertainties_in_the_material_properties_of_brain_tissue_on_the_probablistic_volume_of_tissue_activated.pdf).
