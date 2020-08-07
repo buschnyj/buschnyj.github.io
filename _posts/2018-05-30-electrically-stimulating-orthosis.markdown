@@ -18,7 +18,7 @@ At the Human/Machine Design Lab, I was tasked with developing the body attachmen
 - Comfortable for extended periods of time (2-3 hours).
 - Under a 20lb (9.07 kg) weight limit.
 - Fit a variety of body types.
-- Had to provide anklye support in the form of a platform that the patient stands on. 
+- Had to provide ankle support in the form of a platform that the patient stands on. 
 
 <br>
 
